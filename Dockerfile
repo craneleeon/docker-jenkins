@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:lts
+FROM jenkins/jenkins:2.190.1
 USER root
 RUN apt-get update && \
 apt-get -y install apt-transport-https \
